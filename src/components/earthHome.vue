@@ -7,7 +7,6 @@ import { mapMutations } from "vuex";
 export default {
   mounted() {
     this.initEarth();
-    this.setEarthReady();
   },
   methods: {
     ...mapMutations("aoi", ["setEarthReady"]),
@@ -21,6 +20,8 @@ export default {
         fullscreenButton: false,
         navigationHelpButton: false
       });
+      earth.scene.globe.enableLighting = true;
+      this.setEarthReady();
     }
   }
 };
