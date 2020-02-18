@@ -4,9 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from "./store";
+import "./assets/elementUI/index.css"
+import "./assets/elementUI/custom.css";
+import ElementUI from "element-ui";
 
 Vue.config.productionTip = false
 window.earth = {}
+Vue.use(ElementUI)
 
 /* eslint-disable no-new */
 new Vue({

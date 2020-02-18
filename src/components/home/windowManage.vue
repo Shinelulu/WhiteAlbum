@@ -1,14 +1,16 @@
 <template>
   <div>
-    <location-test></location-test>
+    <tool-menu></tool-menu>
   </div>
 </template>
 
 <script>
 import LocationTest from "../album/location";
+import ToolMenu from "../album/toolMenu";
 export default {
   components: {
-    LocationTest
+    LocationTest,
+    ToolMenu
   }
 };
 </script>
