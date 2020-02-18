@@ -27,7 +27,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 #earth-main-panel {
   position: absolute;
   background-color: aquamarine;
@@ -35,4 +35,9 @@ export default {
   height: 100%;
   width: 100%;
 }
+
+.cesium-widget-credits{ 
+ display:none!important; 
+visibility:hide!important; 
+} 
 </style>

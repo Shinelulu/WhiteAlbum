@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import LocationTest from "./album/location";
+import LocationTest from "../album/location";
 export default {
   components: {
     LocationTest

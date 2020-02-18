@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import EarthHome from "@/components/earthHome";
+import EarthHome from "@/components/home/earthHome";
 import { mapState } from "vuex";
 export default {
   name: "App",
