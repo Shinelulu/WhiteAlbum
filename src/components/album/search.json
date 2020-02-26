@@ -1,0 +1,112 @@
+{
+    "geocoding": {
+        "version": "0.2",
+        "attribution": "http://internal-a48438b94377d11e8bb4716cd6d45170-1439591168.us-east-1.elb.amazonaws.com:3100/v1/attribution",
+        "query": {
+            "text": "Tokyo, Japan",
+            "size": 10,
+            "private": false,
+            "lang": {
+                "name": "English",
+                "iso6391": "en",
+                "iso6393": "eng",
+                "defaulted": true
+            },
+            "querySize": 20,
+            "parser": "libpostal",
+            "parsed_text": {
+                "state": "tokyo",
+                "country": "japan"
+            }
+        },
+        "engine": {
+            "name": "Pelias",
+            "author": "Mapzen",
+            "version": "1.0"
+        },
+        "timestamp": 1582722509261
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75391,
+                    35.695126
+                ]
+            },
+            "properties": {
+                "id": "102031307",
+                "gid": "whosonfirst:locality:102031307",
+                "layer": "locality",
+                "source": "whosonfirst",
+                "source_id": "102031307",
+                "name": "Tokyo",
+                "confidence": 0.6,
+                "match_type": "fallback",
+                "accuracy": "centroid",
+                "country": "Japan",
+                "country_gid": "whosonfirst:country:85632429",
+                "country_a": "JPN",
+                "region": "Tokyo Prefecture",
+                "region_gid": "whosonfirst:region:85672817",
+                "county": "Chiyoda Ku",
+                "county_gid": "whosonfirst:county:1108741679",
+                "locality": "Tokyo",
+                "locality_gid": "whosonfirst:locality:102031307",
+                "continent": "Asia",
+                "continent_gid": "whosonfirst:continent:102191569",
+                "label": "Tokyo, Japan"
+            },
+            "bbox": [
+                139.279417452,
+                35.5330801096,
+                140.147167867,
+                35.813461192
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.393288,
+                    35.675099
+                ]
+            },
+            "properties": {
+                "id": "85672817",
+                "gid": "whosonfirst:region:85672817",
+                "layer": "region",
+                "source": "whosonfirst",
+                "source_id": "85672817",
+                "name": "Tokyo Prefecture",
+                "confidence": 1,
+                "match_type": "exact",
+                "accuracy": "centroid",
+                "country": "Japan",
+                "country_gid": "whosonfirst:country:85632429",
+                "country_a": "JPN",
+                "region": "Tokyo Prefecture",
+                "region_gid": "whosonfirst:region:85672817",
+                "continent": "Asia",
+                "continent_gid": "whosonfirst:continent:102191569",
+                "label": "Tokyo Prefecture, Japan"
+            },
+            "bbox": [
+                139.279417452,
+                35.5330801096,
+                140.147167867,
+                35.813461192
+            ]
+        }
+    ],
+    "bbox": [
+        139.279417452,
+        35.5330801096,
+        140.147167867,
+        35.813461192
+    ]
+}
